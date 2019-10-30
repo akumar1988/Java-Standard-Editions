@@ -49,7 +49,7 @@ public class GenerateCustomerBill {
     private void amount() {
         Integer copy = balanceAmount, totalNotes = 0, count = 1;
         System.out.println("\nRs DEMONSTRATIONS : \n");
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 10; i++) {
             count = balanceAmount / Rs[i];
             if (count != 0) {
                 System.out.println(Rs[i] + "\tx\t" + count + "\t= " + Rs[i] * count);
