@@ -35,13 +35,17 @@ public class GenerateCustomerBill {
             if ((givenAmount <= itemCost) || (givenAmount <= 0)) {
                 throw new InvalidNumberException("Please Enter Valid Number Only");
             } else {
+                boolean flag= true;
                 for (int n : Rs) {
                     if (n == givenAmount) {
+                        flag=false;
                         balanceAmount = givenAmount - itemCost;
                         this.amount();
                     }
                 }
-                throw new InvalidNumberException("Please Enter According to Indian Standard INR.");
+                if(flag){
+                    throw new InvalidNumberException("Please Enter According to Indian Standard INR.");
+                }
             }
         }
     }
@@ -49,7 +53,7 @@ public class GenerateCustomerBill {
     private void amount() {
         Integer copy = balanceAmount, totalNotes = 0, count = 1;
         System.out.println("\nRs DEMONSTRATIONS : \n");
-        for (int i = 0; i < 9; i++) {
+        for (int i = 0; i < 10; i++) {
             count = balanceAmount / Rs[i];
             if (count != 0) {
                 System.out.println(Rs[i] + "\tx\t" + count + "\t= " + Rs[i] * count);

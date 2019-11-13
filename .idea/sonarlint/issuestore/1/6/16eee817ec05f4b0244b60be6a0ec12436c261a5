@@ -1,0 +1,29 @@
+
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¨¶ÑÍşÿÿÿÿ
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(¾›‘ıÿÿÿÿ
+U
+squid:S1067"9Replace this use of System.out or System.err by a logger.(ŞàõB8¼ÔÑßá-
+Ksquid:S16596"(Declare "totalNotes" on a separate line.(–“ìåüÿÿÿÿ8¼ÔÑßá-
+O
+squid:S106A"9Replace this use of System.out or System.err by a logger.(±À£ñ
+Tsquid:S1197
+"8Move the array designator from the variable to the type.(Š Ò”şÿÿÿÿ
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(¤´¨àÿÿÿÿÿ8¼ÔÑßá-
+jsquid:S00116
+"MRename this field "Rs" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Š Ò”şÿÿÿÿ
+]squid:S00112!"FDefine and throw a dedicated exception instead of using a generic one.(òÚ?
+Fsquid:S16596"#Declare "count" on a separate line.(–“ìåüÿÿÿÿ8¼ÔÑßá-
+V
+squid:S106@"9Replace this use of System.out or System.err by a logger.(òÔÇÍ8¼ÔÑßá-
+T
+squid:S106"9Replace this use of System.out or System.err by a logger.(÷Ë’ùÿÿÿÿ
+Isquid:S1199""-Extract this nested code block into a method.(ÒÌâ–øÿÿÿÿ
+T
+squid:S106C"9Replace this use of System.out or System.err by a logger.(‰•šûüÿÿÿÿ
+O
+squid:S106B"9Replace this use of System.out or System.err by a logger.(òÔÇÍ
+O
+squid:S106"9Replace this use of System.out or System.err by a logger.(ù÷©€
